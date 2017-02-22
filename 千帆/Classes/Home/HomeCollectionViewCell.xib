@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="331"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DyW-lm-ur4"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="7km-hC-2g2">
+                    <frame key="frameInset" minX="368" minY="20" width="48" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哦啦啦哦啦啦欧拉拉啊" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPM-4I-m1p">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXM-8s-7AL">
+                    <frame key="frameInset" minX="204" minY="301" width="45" height="22"/>
+                    <state key="normal" title="2014" image="home_icon_people"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DyW-lm-ur4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8cI-BE-7Yb"/>
+                <constraint firstItem="DyW-lm-ur4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CRd-Tg-Jm1"/>
+                <constraint firstAttribute="bottom" secondItem="lPM-4I-m1p" secondAttribute="bottom" constant="8" id="Kno-t8-41V"/>
+                <constraint firstItem="cXM-8s-7AL" firstAttribute="bottom" secondItem="lPM-4I-m1p" secondAttribute="bottom" id="a3m-TO-Mkc"/>
+                <constraint firstItem="lPM-4I-m1p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="eXi-ya-IQh"/>
+                <constraint firstItem="cXM-8s-7AL" firstAttribute="leading" secondItem="lPM-4I-m1p" secondAttribute="trailing" constant="10" id="pXz-ZB-kVZ"/>
+                <constraint firstAttribute="trailing" secondItem="DyW-lm-ur4" secondAttribute="trailing" id="qLU-2l-uK2"/>
+                <constraint firstAttribute="bottom" secondItem="DyW-lm-ur4" secondAttribute="bottom" id="xc2-79-eRo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-53" y="159.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_icon_live" width="23" height="13"/>
+        <image name="home_icon_people" width="7" height="7"/>
+    </resources>
+</document>
